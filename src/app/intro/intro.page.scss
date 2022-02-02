@@ -1,0 +1,52 @@
+ion-content {
+    --background: #494848;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+  }
+
+  .searchbar {
+    color: rgb(238, 238, 248);
+  }
+  
+  ion-slides {
+    height: 100%;
+    max-width: 800px;
+    background-color: var(#080808); //Aqui uso una variable
+    margin:10px;
+  }
+  .swiper-slide {
+    display: block;
+    margin-bottom: 60px;
+    color: var(--ion-color-primary);
+  }
+  
+  ion-slide > h1, h2 {
+    margin: 0 0 0 0;
+    color: rgb(225, 226, 228); //aqui uso mi variabe creada
+  }
+  
+  ion-slide > p {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    font-style: italic;
+    font-size: 22px;
+    padding: 10px 10px 10px 10px;
+    margin: 25px 25px 25px 25px;
+  }
+  
+  ion-slide > ion-icon {
+    color: rgb(246, 247, 245);
+  }
+  
+  ion-slide > img {
+    max-height: 40%;
+    max-width: 100%;
+    margin: 50px 0 30px;
+  }
+  
+  ion-slide > ion-icon[name="close"] {
+    float: right;
+    color: rgb(247, 245, 245);
+    font-size: 50px;
+  }

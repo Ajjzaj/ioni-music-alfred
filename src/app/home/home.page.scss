@@ -1,0 +1,47 @@
+ion-content{
+
+    --background:#adafb3;
+    font-family: antiquewhite;
+
+}
+
+ion-toolbar{
+
+    --background:#adafb3;
+    font-family: antiquewhite;
+
+}
+
+
+
+
+p {
+  color:rgb(114, 22, 22);  
+}
+
+.parrafo {
+    color: rgb(17, 6, 6);
+    font-size: 16px;
+    font-family: r, 'Times New Roman', Times, cursive;
+}
+.imagen {
+    width: 50%;
+}
+
+#soyid {
+    width: 30%;
+}
+
+ion-avatar {
+    height: 110px;
+    width: 80%;
+}
+
+ion-avatar img {
+    width: 80px;
+    height: 80px;
+}
+
+.square-avatar {
+    border-radius: 9;
+}
